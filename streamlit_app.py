@@ -10,7 +10,6 @@ import os
 from gtts import gTTS  
 import playsound  
 from moviepy.editor import *
-
 import numpy as np
 import matplotlib.pyplot as plt
 import jellyfish
