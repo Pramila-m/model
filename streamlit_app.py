@@ -253,7 +253,7 @@ if __name__ == '__main__':
 
                     model = SimpleT5()
                     model.from_pretrained(model_type="t5", model_name="t5-base")
-                    model.load_model("t5", "model_t5/",use_gpu=False) 
+                    model.load_model("t5", "Pramilamanick/t5_model",use_gpu=False) 
                     output=model.predict(t5_prepared_Text)
                     st.markdown("<h1 style='text-align: center; color:black ;background-color:powderblue;font-size:16pt'>ABSTRACTIVE SUMMARY</h1>", unsafe_allow_html=True)
                     st.write(output[0])                
